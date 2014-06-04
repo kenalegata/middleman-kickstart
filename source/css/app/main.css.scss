@@ -1,0 +1,36 @@
+/* main */
+
+@charset "UTF-8";
+
+
+// Config
+@import
+	"_partials/config";
+
+// Generic
+@import
+	"_partials/generic";
+
+// Normalize
+@import
+	"../_foundation/normalize";
+
+// Foundation
+@import
+	"../_foundation/foundation";
+
+// Base
+@import
+	"_partials/base";
+
+// Layout
+@import
+	"_partials/layout";
+
+// Modules
+@import
+	"_partials/modules";
+
+// State
+@import
+	"_partials/state";

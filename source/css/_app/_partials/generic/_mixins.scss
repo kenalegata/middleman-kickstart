@@ -88,5 +88,7 @@
   background-image: -o-linear-gradient(top,  transparent 0%,$to 100%); /* Opera 11.10+ */
   background-image: -ms-linear-gradient(top,  transparent 0%,$to 100%); /* IE10+ */
   background-image: linear-gradient(to bottom,  transparent 0%,$to 100%); /* W3C */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(50%, $to), color-stop(50%, $to), color-stop(100%, $to));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=transparent, endColorstr=$to)";
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=transparent, endColorstr=$to, GradientType=0 ); /* IE6-9 */
 }
